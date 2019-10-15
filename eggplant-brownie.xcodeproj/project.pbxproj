@@ -15,6 +15,9 @@
 		2693A91823561F5200F61808 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2693A91623561F5200F61808 /* LaunchScreen.storyboard */; };
 		2693A92323561F5200F61808 /* eggplant_brownieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2693A92223561F5200F61808 /* eggplant_brownieTests.swift */; };
 		2693A92E23561F5200F61808 /* eggplant_brownieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2693A92D23561F5200F61808 /* eggplant_brownieUITests.swift */; };
+		2693A93C2356251C00F61808 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2693A93B2356251C00F61808 /* Meal.swift */; };
+		2693A93E2356261700F61808 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2693A93D2356261700F61808 /* Item.swift */; };
+		2693A9432356322F00F61808 /* MealsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2693A9422356322F00F61808 /* MealsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		2693A92923561F5200F61808 /* eggplant-brownieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "eggplant-brownieUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2693A92D23561F5200F61808 /* eggplant_brownieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eggplant_brownieUITests.swift; sourceTree = "<group>"; };
 		2693A92F23561F5200F61808 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2693A93B2356251C00F61808 /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		2693A93D2356261700F61808 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		2693A9422356322F00F61808 /* MealsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +107,9 @@
 			children = (
 				2693A90B23561F5100F61808 /* AppDelegate.swift */,
 				2693A90D23561F5100F61808 /* SceneDelegate.swift */,
-				2693A90F23561F5100F61808 /* ViewController.swift */,
-				2693A91123561F5100F61808 /* Main.storyboard */,
+				2693A941235627B500F61808 /* controller */,
+				2693A9402356277900F61808 /* view */,
+				2693A93F2356275500F61808 /* model */,
 				2693A91423561F5200F61808 /* Assets.xcassets */,
 				2693A91623561F5200F61808 /* LaunchScreen.storyboard */,
 				2693A91923561F5200F61808 /* Info.plist */,
@@ -126,6 +133,32 @@
 				2693A92F23561F5200F61808 /* Info.plist */,
 			);
 			path = "eggplant-brownieUITests";
+			sourceTree = "<group>";
+		};
+		2693A93F2356275500F61808 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				2693A93B2356251C00F61808 /* Meal.swift */,
+				2693A93D2356261700F61808 /* Item.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		2693A9402356277900F61808 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				2693A91123561F5100F61808 /* Main.storyboard */,
+				2693A90F23561F5100F61808 /* ViewController.swift */,
+				2693A9422356322F00F61808 /* MealsTableViewController.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		2693A941235627B500F61808 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +292,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2693A93E2356261700F61808 /* Item.swift in Sources */,
+				2693A93C2356251C00F61808 /* Meal.swift in Sources */,
+				2693A9432356322F00F61808 /* MealsTableViewController.swift in Sources */,
 				2693A91023561F5100F61808 /* ViewController.swift in Sources */,
 				2693A90C23561F5100F61808 /* AppDelegate.swift in Sources */,
 				2693A90E23561F5100F61808 /* SceneDelegate.swift in Sources */,
