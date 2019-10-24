@@ -8,13 +8,14 @@
 
 class Meal {
     
-    var name: String?
-    var happiness: Int?
+    let name: String?
+    let happiness: Int?
     var items = Array<Item>()
     
-    init(name: String, happiness: Int) {
+    init(name: String, happiness: Int, items: Array<Item> = []) {
         self.name = name
         self.happiness = happiness
+        self.items = items
     }
     
     func allCalories(calories: Array<Double>) -> Double {

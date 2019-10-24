@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		262D9C522361181E00B8C952 /* NewItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262D9C502361181E00B8C952 /* NewItemViewController.swift */; };
+		262D9C532361181E00B8C952 /* NewItemViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 262D9C512361181E00B8C952 /* NewItemViewController.xib */; };
 		2693A90C23561F5100F61808 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2693A90B23561F5100F61808 /* AppDelegate.swift */; };
 		2693A90E23561F5100F61808 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2693A90D23561F5100F61808 /* SceneDelegate.swift */; };
 		2693A91023561F5100F61808 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2693A90F23561F5100F61808 /* ViewController.swift */; };
@@ -38,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		262D9C502361181E00B8C952 /* NewItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewItemViewController.swift; sourceTree = "<group>"; };
+		262D9C512361181E00B8C952 /* NewItemViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewItemViewController.xib; sourceTree = "<group>"; };
 		2693A90823561F5100F61808 /* eggplant-brownie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "eggplant-brownie.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2693A90B23561F5100F61808 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2693A90D23561F5100F61808 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -82,6 +86,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		262D9C542361182C00B8C952 /* Novo Item */ = {
+			isa = PBXGroup;
+			children = (
+				262D9C502361181E00B8C952 /* NewItemViewController.swift */,
+				262D9C512361181E00B8C952 /* NewItemViewController.xib */,
+			);
+			path = "Novo Item";
+			sourceTree = "<group>";
+		};
 		2693A8FF23561F5100F61808 = {
 			isa = PBXGroup;
 			children = (
@@ -150,6 +163,7 @@
 				2693A91123561F5100F61808 /* Main.storyboard */,
 				2693A90F23561F5100F61808 /* ViewController.swift */,
 				2693A9422356322F00F61808 /* MealsTableViewController.swift */,
+				262D9C542361182C00B8C952 /* Novo Item */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -267,6 +281,7 @@
 			files = (
 				2693A91823561F5200F61808 /* LaunchScreen.storyboard in Resources */,
 				2693A91523561F5200F61808 /* Assets.xcassets in Resources */,
+				262D9C532361181E00B8C952 /* NewItemViewController.xib in Resources */,
 				2693A91323561F5100F61808 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -298,6 +313,7 @@
 				2693A91023561F5100F61808 /* ViewController.swift in Sources */,
 				2693A90C23561F5100F61808 /* AppDelegate.swift in Sources */,
 				2693A90E23561F5100F61808 /* SceneDelegate.swift in Sources */,
+				262D9C522361181E00B8C952 /* NewItemViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -6,7 +6,8 @@
 //  Copyright © 2019 Lucas Pacheco. All rights reserved.
 //
 
-class Item {
+class Item : Equatable {
+    
     var name:String
     var calories:Double
     
@@ -14,4 +15,8 @@ class Item {
         self.name = name
         self.calories = calories
     }
+}
+
+func == (first: Item, second: Item) -> Bool {
+    return first.name == second.name && first.calories == second.calories
 }
